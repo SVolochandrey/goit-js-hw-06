@@ -19,4 +19,6 @@ else {formData.email = elements.email.value;
 formData.password = elements.password.value;;
 
 console.log(formData)};
+
+event.currentTarget.reset();
 }
